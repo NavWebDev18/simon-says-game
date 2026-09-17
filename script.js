@@ -21,7 +21,7 @@ function randomColorsBlink(){
     randomBlinkBtn.classList.remove(`blink${randomColor}`)
   },250);
   gameSequence.push(randomColor);
-  console.log(gameSequence);
+  //console.log(gameSequence);
 };
 
 function checkColors(idx){
