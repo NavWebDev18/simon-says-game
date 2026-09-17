@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./assets/simon_icon.jpg">
+  <title>Simon says game</title>
+</head>
+<body>
+  <h1>Simon says game</h1>
+  <div class="container">
+    <div class="display">
+      <div class="btn yellow" id="yellow"></div>
+      <div class="btn blue" id="blue"></div>
+    </div>
+    <div class="display">
+      <div class="btn green" id="green"></div>
+      <div class="btn red" id="red"></div>
+    </div>
+    <div class="circle">
+      <div>
+        <button class="start">Start</button>
+        <button class="reset">Reset</button>
+      </div>
+      <h3>score: <span id="score">0</span></h3>
+      <h4 class="gameover"></h4>
+      <h3>High Score: <span id="high-score">0</span></h3>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
